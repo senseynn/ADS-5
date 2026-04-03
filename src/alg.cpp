@@ -1,11 +1,11 @@
 #include "alg.h"
-#include "tstack.h"
 #include <cctype>
 #include <map>
 #include <sstream>
 #include <stack>
 #include <stdexcept>
 #include <string>
+#include "tstack.h"  
 
 int precedence(char op) {
     if (op == '+' || op == '-') return 1;
