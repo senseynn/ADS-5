@@ -1,4 +1,4 @@
-// Copyright 2025 NNTU-CS
+#include "alg.h"
 #include "tstack.h"
 #include <cctype>
 #include <map>
